@@ -1,4 +1,40 @@
 body{
-    
-    background-image: url("/backgroud.jpg");
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-image: url("background.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.form{
+    width: 468px;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgb(63, 58, 58);
+    padding: 2rem 4rem;
+    text-align: start;
+    color: white;
+}
+#name, #email, #age, #role, #Not_sure, #option, #v, #last{
+    margin-bottom: 10px;
+}
+
+#form{
+
+}
+#role{
+    display: flex;
+    flex-direction: column;
+}
+#form input{
+    margin-bottom: 1.5rem;
+}
+#submit{
+    padding: 5px 8px;
+    width: 52%;
+    background-color: skyblue;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
 }
