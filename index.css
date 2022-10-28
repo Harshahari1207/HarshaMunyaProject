@@ -15,19 +15,20 @@ body{
     padding: 2rem 4rem;
     text-align: start;
     color: white;
+    
+    border-radius: 3px;
+    opacity: 0.5;
 }
-#name, #email, #age, #role, #Not_sure, #option, #v, #last{
+#name, #email, #number, #dropdown, #Not_sure, #option, #v, #last{
     margin-bottom: 10px;
 }
 
-#form{
 
-}
 #role{
     display: flex;
     flex-direction: column;
 }
-#form input{
+#survey-form input{
     margin-bottom: 1.5rem;
 }
 #submit{
